@@ -1,0 +1,25 @@
+h1{
+	color: orange;
+	letter-spacing: 2px;
+	
+
+}
+h1{
+	color: orange;
+	letter-spacing: -2px;
+	text-transform: uppercase;
+	width: 650px;
+	text-shadow: 1px 1px black;
+}
+p{
+	width: 650px;
+	font-size: 18px;
+	font-family: verdana,arial,sans-serif;
+	
+	
+}
+#wrap{
+	font-family: sans-serif;
+	float -left
+}
+
