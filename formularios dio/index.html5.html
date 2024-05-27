@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de cadastro</title>
+</head>
+<body>
+    <form name="signup" onsubmit="alert('enviei o formulario');" method="Post" action="#">
+        Nome: <input type="text" name="name" /><br>
+        Idade: <input type="number" number="age"><br>
+        Senha: <input type="password" name="password" ><br> 
+        <button type="submit" >Enviar</button>
+        <label>text: </label><input type="text" /><br>
+        <label>Number: </label><input type="number" min="0" step="5" max="99" /><br>
+        <label>range: </label><input type="range" min="0" max="100" value="90"/><br>
+        <label>Color: </label><input type="color" /><br>
+        <label>E-mail: </label><input type="email" /><br>
+        <label>Url: </label><input type="url" /><br>
+        <label>Date: </label><input type="date" /><br>
+        <label>Week: </label><input type="week" /><br>
+        <label>Month: </label><input type="month" /><br>
+        <label>Checkbox: </label><input type="checkbox" /><br>
+        <label>Radio: </label><input type="radio" /><br>
+        <label>Hiden: </label><input type="hidden" /><br>
+        <label>File: </label><input type="file" multiple/><br>
+        <label>seacher: </label><input type="seacher" /><br>
+        <label>Button: </label><input type="submit" value="Enviar"/><br>
+
+    </form>
+</body>
+
+    <body>
+    <form method="get">
+        <h3>Voce selecionou: Pizza de calabresa</h3>
+        <p>Quais opcionais: voce deseja</p>
+        <input type="checkbox" name="opcional" value="queijo"> + queijo <br>
+        <input type="checkbox" name="opcional" value="calabresa"> + queijo <br>
+        <input type="checkbox" name="opcional" value="cebola"> + queijo <br> 
+        <input type="checkbox" name="opcional" value="azeitona"> + queijo <br>
+            
+            <p>Borda recheada</p>
+            
+        <input type="checkbox" name="opcional" value="sim"> + queijo <br>
+        <input type="checkbox" name="opcional" value="nao"> + queijo <br>
+
+            <p>Bebidas</p>
+
+        <input type="checkbox" name="Bebidas" value="refrigerante"> + queijo <br>
+        <input type="checkbox" name="Bebidas" value="suco"> + suco<br>
+        <input type="checkbox" name="Bebidas" value="agua"> + agua <br>
+        <input type="checkbox" name="Bebidas" value="nenhum"> + nenhum <br>
+
+            <button type="submit">Enviar pedido</button>   
+
+    </form>
+</body>
+
+    <body>
+    <form onsubmit="" method="get">
+    
+    <label>Nome:</label><input type="text" name="name"><br>
+    <label>Idade:</label><input type="text" name="name"><br>
+    <label>password:</label><input type="text" name="name"><br>
+
+    <button type="submit">Enviar</button>
+    
+    </form>
+
+    <form onsubmit="method=get">
+        <label>Nome:</label><input type="text"
+name="name" ><br>
+        <label>Cargo:</label>
+        <select name="role" multiple>
+            <option value="">selecione o Cargo</option>
+            <option value="gerente" >Gerente</option>
+            <option value="diretor">Diretor</option>
+            <option selected value="Presidente">Presidente</option>
+        </select>
+        <br>
+
+        <label>Assunto:</label><input type="text" name="subject"><br>
+        <label>Menssagem</label>
+        <textarea rows="10" cols="50" name="message"></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+
+</html>
+
+
